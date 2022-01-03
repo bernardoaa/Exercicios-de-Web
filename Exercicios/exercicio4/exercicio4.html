@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Dizendo a "lingua" utilizada-->
+<html lang="pt-pt">
+
+<head>
+    <!--Aqui "linkamos com o estilo da pagina"-->
+    <link rel="stylesheet" href="../css.css" type="text/css">
+    <!--Habilitamos acentuações-->
+    <meta charset="UTF-8">
+    <!--Titulo da pagina -->
+    <title>Exercicio 4 | html</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Escolha uma operacao</h1>
+<!--Formulario-->
+    <form name="form" method="get" action="exercicio4.php" title="Calculadora">
+
+        <select name="Operador" id="operador">
+            <option value="sub" name="sub">Subtracao</option>
+            <option value="mult" name="Multiplic">Multiplicacao</option>
+            <option value="adic" name="adic">Adicao</option>
+            <option value="div" name="div">Divisao</option>
+        </select>
+
+        Numero 1: <input type="number" name="numero1" required/>
+        Numero 2: <input type="number" name="numero2" required/>
+        <input type="submit" value="Resposta" />
+    </form>
+</body>
+
+</html>

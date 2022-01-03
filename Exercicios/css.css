@@ -1,0 +1,12 @@
+input[type="submit"] {
+    background-color: rgb(27, 35, 44);
+    color: white;
+    font-family: verdana;
+    border-radius: 5px;
+    height: 40px;
+}
+
+input[type="number"] {
+    height: 25px;
+    width: 80px;
+}

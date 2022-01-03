@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--Dizendo a "lingua" utilizada-->
+<html lang="pt-pt">
+
+<head>
+    <!--Aqui "linkamos com o estilo da pagina"-->
+    <link rel="stylesheet" href="../css.css" type="text/css">
+    <!--Habilitamos acentuações-->
+    <meta charset="UTF-8">
+    <!--Titulo da pagina -->
+    <title>Exercicio 19 | html</title>
+</head>
+
+<body>
+	<!--Formulario, fazendo com que nao submeta(required) sem completar dos os campos-->
+    <form method="post" action="exercicio19.php">
+     
+        Nome: <input type="text" name="nome" required />
+        Senha: <input type="password" name="senha" required style="margin-bottom: 10px;" />
+        Email: <input type="email" name="email" required />
+        Data de Nascimento: <input type="date" name="data" required /><br>
+        
+        <!--Drop-down das bandeiras de cartão-->
+        Bandeira de cartão de credito:
+        <select name="nomeCartao" required>
+            <option value=""></option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="americanexpress">American Express</option>
+            <option value="hipercard">HiperCard</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submeter">
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<!--Dizendo a "lingua" utilizada-->
+<html lang="pt-pt">
+
+<head>
+    <!--Aqui "linkamos com o estilo da pagina"-->
+    <link rel="stylesheet" href="../css.css" type="text/css">
+    <!--Habilitamos acentuações-->
+    <meta charset="UTF-8">
+    <!--Titulo da pagina -->
+    <title>Exercicio 11 | html</title>
+</head>
+
+<body>
+	<!--Formulario, fazendo com que nao submeta(required) sem completar dos os campos-->
+	<!--placeholder ilucida o que usuario deve inserir-->
+	<form method="get" action="exercicio11.php">
+		Nome: <input type="text" name="n" placeholder="Digite um nome...">
+		<!--Criando um "borda" ao redor do campo sexo e legend mostrando a legenda(sexo)-->
+		<fieldset>
+			<legend>Sexo</legend>
+			<input type="radio" name="sexo" id="cMas" value="Homem">
+			<label for="cMas">Masculino</label></br>
+			<input type="radio" name="sexo" id="cFem" value="Mulher">
+			<label for="cFem">Feminino</label>
+		</fieldset>
+	</br>
+		Idade: <input type="number" name="i" min="0" placeholder="Idade..."></br></br>
+		<input type="submit" value="Verificar">
+	</form>
+</body>
+
+</html>

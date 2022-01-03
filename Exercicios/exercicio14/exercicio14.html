@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<!--Dizendo a "lingua" utilizada-->
+<html lang="pt-pt">
+
+<head>
+	<!--Aqui "linkamos com o estilo da pagina"-->
+	<link rel="stylesheet" href="../css.css" type="text/css">
+	<!--Habilitamos acentuações-->
+	<meta charset="UTF-8">
+	<!--Titulo da pagina -->
+	<title>Exercicio 14 | html</title>
+</head>
+
+<body>
+	<!--Formulario, fazendo com que nao submeta(required) sem completar dos os campos-->
+	<!--placeholder ilucida o que usuario deve inserir-->
+	<form method="get" action="exercicio14.php">
+		Nome do livro: <input type="text" name="n" placeholder="Digite o nome do livro..." required>
+		<!--Criacao de borda usando fieldset-->
+		<fieldset>
+			<legend>Tipo de Usuario</legend>
+			<input type="radio" name="c" id="cPr" value="Professor" checked><label for="cPr">Professor</label>
+			<input type="radio" name="c" id="cAl" value="Prefessor"><label for="cAl">Aluno</label>
+		</fieldset><br>
+		<input type="submit" value="Imprimir Recibo">
+	</form>
+</body>
+
+</html>
