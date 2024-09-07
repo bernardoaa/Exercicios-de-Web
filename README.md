@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como trabalho colaborativo para a disciplina de Pr
 * PHP 7.4
 
 ## Como Executar
-1. Clone este repositório: `git clone https://github.com/seu-usuario/Exercicios-de-Web.git`
+1. Clone este repositório: `git clone https://github.com/bernardoaa/Exercicios-de-Web.git`
 
 ## Resultados
 * Feedback do professor: Posetivo
