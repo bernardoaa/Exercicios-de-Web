@@ -1,4 +1,4 @@
-# Projeto de Programação Web: [Nome do Projeto]
+# Projeto de Programação Web
 
 Este projeto foi desenvolvido como trabalho colaborativo para a disciplina de Programação Web da Universidade Zambeze-FCT, Beira-Moçambique, no segundo semestre de 2020. A equipe, composta por Gaspar, Patrícia e Feliciano, teve como objetivo criar solução para uma série de exercícios.
 
